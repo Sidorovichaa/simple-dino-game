@@ -1,0 +1,24 @@
+// Fonts
+$font-main: 'Poppins', sans-serif;
+$font-accent: 'Forum', cursive;
+
+// colors
+$dark: #242b33;
+$accent: rgb(255, 255, 240);
+$black: #000000;
+$white: #FFFFFF;
+$grey: #8E8E8E;
+
+$color1: #5f3403;
+$color2: #8b4617;
+$color3: #935300;
+$color4: #d8da78;
+$color5: #f9fcd8;
+
+//gradients
+//$gradient: linear-gradient($color5, $color4, $color3, $color2);
+$gradient: linear-gradient(to right top, $color2, $color3, $color4, $color5);
+// $gradient: linear-gradient(to right top, $pink 0%, $violet 100%);
+
+$left: 0;
+$bottom: 0;

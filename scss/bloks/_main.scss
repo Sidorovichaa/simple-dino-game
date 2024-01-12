@@ -1,0 +1,45 @@
+main {
+  background: $gradient;
+  height: 100vh;
+}
+
+main .container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.world {
+  overflow: hidden;
+  position: relative;
+}
+
+.ground {
+  --left: 0;
+  position: absolute;
+  width: 300%;
+  bottom: 0;
+  left: calc(var(--left) * 1%);
+}
+
+.dino {
+  --bottom: 0;
+  position: absolute;
+  left: 1%;
+  //height: 30%;
+  height: 150px;
+  bottom: calc(var(--bottom) * 1%);
+
+}
+
+.cactus {
+  position: absolute;
+  left: calc(var(--left) * 1%);
+  height: 150px;
+  //height: 30%;
+  bottom: 0;
+}
